@@ -85,3 +85,8 @@ console.log("El area del Circulo es: " + areaCircular + "cm*cm");*/
 
 console.groupEnd();
 
+
+function calcularPerimetroCuadrado() {
+    
+}
+
