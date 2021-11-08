@@ -41,7 +41,7 @@ console.group("Circulos");
 
 const radioCirculo = 4;
 
-const pi = 3.141592;
+const pi = Math.PI;
 
 console.log("El radio del Circulo es: " + radioCirculo + "cm");
 
