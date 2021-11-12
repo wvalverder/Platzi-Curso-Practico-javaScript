@@ -34,3 +34,5 @@ if (esPar(lista1.length)) {
 } else {
     mediana = lista1[mitadLista1];
 }
+
+//nota : para que la mediana funcione , en el caso de nuestro ejemplo los elementos deben estar ordenados de menor a mayor.. para lograr esto se puede usar el metodo de los arrays sort()
