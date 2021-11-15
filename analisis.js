@@ -36,4 +36,14 @@ const salariosPer = peru.map(
         }
     }
 
-    console.log(medianaSalarios(salariosPerSorted));
+
+
+    const spliceStart = (salariosPerSorted.length*90)/100;
+
+    const spliceCount = salariosPerSorted.length - spliceStart;
+
+    const salariosPerTop10 = salariosPerSorted.splice(spliceStart,spliceCount);
+
+    const medianaTop10Per = medianaSalarios(salariosPerTop10);
+
+    console.log()
